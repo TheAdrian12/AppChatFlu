@@ -3,6 +3,9 @@ import 'package:flutter_chat_app/features/home/presentation/views/view_chat_fail
 import 'package:flutter_chat_app/features/home/presentation/views/view_chat_loading.dart';
 import 'package:flutter_chat_app/features/home/presentation/views/view_chat_succes.dart';
 import 'features/home/presentation/views/view_chat_initial.dart';
+import 'features/home/presentation/blocs/home_event.dart';
+import 'features/home/presentation/blocs/home_bloc.dart';
+import 'features/home/presentation/blocs/home_state.dart';
 
 void main() {
   runApp(const MyApp());
