@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_chat_app/features/home/presentation/views/view_chat_failure.dart';
 import 'package:flutter_chat_app/features/home/presentation/views/view_chat_loading.dart';
 import 'features/home/presentation/views/view_chat_initial.dart';
 
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Chat App', home: ChatLoad());
+    return MaterialApp(title: 'Chat App', 
+    home: ViewChatFailure());
   }
 }
